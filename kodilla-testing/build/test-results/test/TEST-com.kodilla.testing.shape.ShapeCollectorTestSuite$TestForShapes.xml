@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Tests for Shapes" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-10-08T13:08:10" hostname="LAPTOP-6257JG67" time="0.005">
+  <properties/>
+  <testcase name="testTriangle()" classname="com.kodilla.testing.shape.ShapeCollectorTestSuite$TestForShapes" time="0.001"/>
+  <testcase name="testCircle()" classname="com.kodilla.testing.shape.ShapeCollectorTestSuite$TestForShapes" time="0.0"/>
+  <testcase name="testSquare()" classname="com.kodilla.testing.shape.ShapeCollectorTestSuite$TestForShapes" time="0.002"/>
+  <system-out><![CDATA[Preparing to execute test #: 5
+Test#: 5 was executed.
+Preparing to execute test #: 6
+Test#: 6 was executed.
+Preparing to execute test #: 7
+Test#: 7 was executed.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

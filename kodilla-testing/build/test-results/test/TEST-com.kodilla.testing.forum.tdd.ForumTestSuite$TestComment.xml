@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Tests for comments" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-10-08T13:08:10" hostname="LAPTOP-6257JG67" time="0.013">
+  <properties/>
+  <testcase name="testRemoveCommentNotExisting()" classname="com.kodilla.testing.forum.tdd.ForumTestSuite$TestComment" time="0.006"/>
+  <testcase name="testRemoveComment()" classname="com.kodilla.testing.forum.tdd.ForumTestSuite$TestComment" time="0.001"/>
+  <testcase name="testGeComment()" classname="com.kodilla.testing.forum.tdd.ForumTestSuite$TestComment" time="0.001"/>
+  <testcase name="testAddComment()" classname="com.kodilla.testing.forum.tdd.ForumTestSuite$TestComment" time="0.001"/>
+  <system-out><![CDATA[Preparing to execute test #: 1
+Preparing to execute test #: 2
+Preparing to execute test #: 3
+Preparing to execute test #: 4
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

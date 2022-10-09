@@ -1,0 +1,9 @@
+rootProject.name = 'kodilla-course-Java'
+include 'kodilla-exception'
+include 'kodilla-rps'
+include 'kodilla-stream'
+include 'kodilla-testing'
+include 'kodilla-good-patterns'
+include 'kodilla-spring-intro'
+include 'kodilla-spring'
+

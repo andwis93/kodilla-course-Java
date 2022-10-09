@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Kodilla Example" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-10-08T13:08:10" hostname="LAPTOP-6257JG67" time="0.023">
+  <properties/>
+  <testcase name="testListBooksWithConditionFragmentShorterThan3()" classname="com.kodilla.testing.library.BookDirectoryTestSuite$KodillaExample" time="0.012"/>
+  <testcase name="testListBooksWithConditionMoreThen20()" classname="com.kodilla.testing.library.BookDirectoryTestSuite$KodillaExample" time="0.005"/>
+  <testcase name="testListBooksWithConditionsReturnList()" classname="com.kodilla.testing.library.BookDirectoryTestSuite$KodillaExample" time="0.004"/>
+  <system-out><![CDATA[Preparing to execute test #: 3
+Test#: 3 was executed.
+Preparing to execute test #: 4
+Test#: 4 was executed.
+Preparing to execute test #: 5
+Test#: 5 was executed.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Finding flights" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-10-08T13:07:52" hostname="LAPTOP-6257JG67" time="0.049">
+  <properties/>
+  <testcase name="findingFlightsThruTest()" classname="com.kodilla.good.patterns.flights.FlightsTestSuite$findingFlights" time="0.03"/>
+  <testcase name="findingFlightsFromTest()" classname="com.kodilla.good.patterns.flights.FlightsTestSuite$findingFlights" time="0.002"/>
+  <testcase name="findingFlightsToTest()" classname="com.kodilla.good.patterns.flights.FlightsTestSuite$findingFlights" time="0.001"/>
+  <testcase name="findingFlightsFromToTest()" classname="com.kodilla.good.patterns.flights.FlightsTestSuite$findingFlights" time="0.001"/>
+  <testcase name="findingFlightsThruNoFlightTest()" classname="com.kodilla.good.patterns.flights.FlightsTestSuite$findingFlights" time="0.008"/>
+  <system-out><![CDATA[Preparing to execute test #: 1
+Test#: 1 was executed.
+Preparing to execute test #: 2
+Test#: 2 was executed.
+Preparing to execute test #: 3
+Test#: 3 was executed.
+Preparing to execute test #: 4
+Test#: 4 was executed.
+Preparing to execute test #: 5
+There is no connecting flights between 'Warsaw' - 'Cracow' - 'Gdansk' in 24h period!
+Test#: 5 was executed.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

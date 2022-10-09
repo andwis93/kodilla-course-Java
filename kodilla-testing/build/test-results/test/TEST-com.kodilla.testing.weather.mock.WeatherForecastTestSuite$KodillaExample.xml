@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Kodilla example" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-08T13:08:10" hostname="LAPTOP-6257JG67" time="0.002">
+  <properties/>
+  <testcase name="testCalculateForecastWithMock()" classname="com.kodilla.testing.weather.mock.WeatherForecastTestSuite$KodillaExample" time="0.002"/>
+  <system-out><![CDATA[Preparing to execute test #: 3
+Test#: 3 was executed.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

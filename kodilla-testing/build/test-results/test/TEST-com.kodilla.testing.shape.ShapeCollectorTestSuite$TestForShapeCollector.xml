@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Tests for ShapeCollector" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-10-08T13:08:10" hostname="LAPTOP-6257JG67" time="0.013">
+  <properties/>
+  <testcase name="testShowFigures()" classname="com.kodilla.testing.shape.ShapeCollectorTestSuite$TestForShapeCollector" time="0.009"/>
+  <testcase name="testRemoveFigure()" classname="com.kodilla.testing.shape.ShapeCollectorTestSuite$TestForShapeCollector" time="0.001"/>
+  <testcase name="testAddFigure()" classname="com.kodilla.testing.shape.ShapeCollectorTestSuite$TestForShapeCollector" time="0.001"/>
+  <testcase name="testGeFigure()" classname="com.kodilla.testing.shape.ShapeCollectorTestSuite$TestForShapeCollector" time="0.0"/>
+  <system-out><![CDATA[Preparing to execute test #: 1
+Test#: 1 was executed.
+Preparing to execute test #: 2
+Test#: 2 was executed.
+Preparing to execute test #: 3
+Test#: 3 was executed.
+Preparing to execute test #: 4
+Test#: 4 was executed.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
