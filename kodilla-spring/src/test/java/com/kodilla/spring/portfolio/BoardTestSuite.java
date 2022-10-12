@@ -4,6 +4,9 @@ import org.junit.jupiter.api.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class BoardTestSuite {
@@ -48,5 +51,22 @@ public class BoardTestSuite {
         //Then
         assertEquals("Added sentence to doneList",doneList);
     }
+
+    @Test
+    void testBoardScope() {
+        //Given
+        ApplicationContext context = new AnnotationConfigApplicationContext(BoardConfig.class);
+        Board board = context.getBean(Board.class);
+        Board board2 = context.getBean(Board.class);
+
+        //When & Then
+        board.getToDoList().getTasks().add("Enter first to do list");
+        board.getDoneList().getTasks().add("Enter first done list");
+        board2.getToDoList().getTasks().add("Enter second to do list");
+        board2.getDoneList().getTasks().add("Enter second done list");
+
+        System.out.println(board2.getToDoList().getTasks());
+        System.out.println(board2.getDoneList().getTasks());
+        }
 
 }
