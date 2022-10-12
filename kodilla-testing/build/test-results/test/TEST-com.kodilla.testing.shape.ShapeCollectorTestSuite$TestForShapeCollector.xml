@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Tests for ShapeCollector" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-10-08T13:08:10" hostname="LAPTOP-6257JG67" time="0.013">
+<testsuite name="Tests for ShapeCollector" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-10-12T13:46:05" hostname="LAPTOP-6257JG67" time="0.02">
   <properties/>
-  <testcase name="testShowFigures()" classname="com.kodilla.testing.shape.ShapeCollectorTestSuite$TestForShapeCollector" time="0.009"/>
-  <testcase name="testRemoveFigure()" classname="com.kodilla.testing.shape.ShapeCollectorTestSuite$TestForShapeCollector" time="0.001"/>
+  <testcase name="testShowFigures()" classname="com.kodilla.testing.shape.ShapeCollectorTestSuite$TestForShapeCollector" time="0.013"/>
+  <testcase name="testRemoveFigure()" classname="com.kodilla.testing.shape.ShapeCollectorTestSuite$TestForShapeCollector" time="0.002"/>
   <testcase name="testAddFigure()" classname="com.kodilla.testing.shape.ShapeCollectorTestSuite$TestForShapeCollector" time="0.001"/>
-  <testcase name="testGeFigure()" classname="com.kodilla.testing.shape.ShapeCollectorTestSuite$TestForShapeCollector" time="0.0"/>
+  <testcase name="testGeFigure()" classname="com.kodilla.testing.shape.ShapeCollectorTestSuite$TestForShapeCollector" time="0.001"/>
   <system-out><![CDATA[Preparing to execute test #: 1
 Test#: 1 was executed.
 Preparing to execute test #: 2

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Kodilla Example" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-10-08T13:08:10" hostname="LAPTOP-6257JG67" time="0.023">
+<testsuite name="Kodilla Example" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-10-12T13:46:05" hostname="LAPTOP-6257JG67" time="0.025">
   <properties/>
-  <testcase name="testListBooksWithConditionFragmentShorterThan3()" classname="com.kodilla.testing.library.BookDirectoryTestSuite$KodillaExample" time="0.012"/>
+  <testcase name="testListBooksWithConditionFragmentShorterThan3()" classname="com.kodilla.testing.library.BookDirectoryTestSuite$KodillaExample" time="0.014"/>
   <testcase name="testListBooksWithConditionMoreThen20()" classname="com.kodilla.testing.library.BookDirectoryTestSuite$KodillaExample" time="0.005"/>
-  <testcase name="testListBooksWithConditionsReturnList()" classname="com.kodilla.testing.library.BookDirectoryTestSuite$KodillaExample" time="0.004"/>
+  <testcase name="testListBooksWithConditionsReturnList()" classname="com.kodilla.testing.library.BookDirectoryTestSuite$KodillaExample" time="0.003"/>
   <system-out><![CDATA[Preparing to execute test #: 3
 Test#: 3 was executed.
 Preparing to execute test #: 4

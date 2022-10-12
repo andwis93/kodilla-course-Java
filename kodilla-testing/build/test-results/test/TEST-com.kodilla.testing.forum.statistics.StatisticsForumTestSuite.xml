@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Statistics forum Test Suite" tests="8" skipped="0" failures="0" errors="0" timestamp="2022-10-08T13:08:09" hostname="LAPTOP-6257JG67" time="0.806">
+<testsuite name="Statistics forum Test Suite" tests="8" skipped="0" failures="0" errors="0" timestamp="2022-10-12T13:46:04" hostname="LAPTOP-6257JG67" time="0.927">
   <properties/>
-  <testcase name="testUserQuantityIs100()" classname="com.kodilla.testing.forum.statistics.StatisticsForumTestSuite" time="0.746"/>
-  <testcase name="testPostsQuantityIs0()" classname="com.kodilla.testing.forum.statistics.StatisticsForumTestSuite" time="0.004"/>
-  <testcase name="testCommentsGreaterThenPosts()" classname="com.kodilla.testing.forum.statistics.StatisticsForumTestSuite" time="0.003"/>
-  <testcase name="testPostsQuantityIs100()" classname="com.kodilla.testing.forum.statistics.StatisticsForumTestSuite" time="0.005"/>
-  <testcase name="testShowStatistics()" classname="com.kodilla.testing.forum.statistics.StatisticsForumTestSuite" time="0.024"/>
-  <testcase name="testCommentsQuantityIs0()" classname="com.kodilla.testing.forum.statistics.StatisticsForumTestSuite" time="0.004"/>
-  <testcase name="testUserQuantityIs0()" classname="com.kodilla.testing.forum.statistics.StatisticsForumTestSuite" time="0.006"/>
-  <testcase name="testCommentsLessThenPosts()" classname="com.kodilla.testing.forum.statistics.StatisticsForumTestSuite" time="0.003"/>
+  <testcase name="testUserQuantityIs100()" classname="com.kodilla.testing.forum.statistics.StatisticsForumTestSuite" time="0.852"/>
+  <testcase name="testPostsQuantityIs0()" classname="com.kodilla.testing.forum.statistics.StatisticsForumTestSuite" time="0.005"/>
+  <testcase name="testCommentsGreaterThenPosts()" classname="com.kodilla.testing.forum.statistics.StatisticsForumTestSuite" time="0.005"/>
+  <testcase name="testPostsQuantityIs100()" classname="com.kodilla.testing.forum.statistics.StatisticsForumTestSuite" time="0.006"/>
+  <testcase name="testShowStatistics()" classname="com.kodilla.testing.forum.statistics.StatisticsForumTestSuite" time="0.028"/>
+  <testcase name="testCommentsQuantityIs0()" classname="com.kodilla.testing.forum.statistics.StatisticsForumTestSuite" time="0.006"/>
+  <testcase name="testUserQuantityIs0()" classname="com.kodilla.testing.forum.statistics.StatisticsForumTestSuite" time="0.007"/>
+  <testcase name="testCommentsLessThenPosts()" classname="com.kodilla.testing.forum.statistics.StatisticsForumTestSuite" time="0.005"/>
   <system-out><![CDATA[All tests: START
 
 Test#: 1 just started. Good luck :)!

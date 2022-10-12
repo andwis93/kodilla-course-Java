@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.kodilla.spring.portfolio.BoardTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-12T12:30:37" hostname="LAPTOP-6257JG67" time="0.444">
+<testsuite name="com.kodilla.spring.portfolio.BoardTestSuite" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-10-12T13:45:46" hostname="LAPTOP-6257JG67" time="0.031">
   <properties/>
-  <testcase name="testBoardScope()" classname="com.kodilla.spring.portfolio.BoardTestSuite" time="0.444"/>
-  <system-out><![CDATA[14:30:37.821 [Test worker] DEBUG org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7e19ebf0
-14:30:37.840 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
-14:30:37.990 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
-14:30:37.992 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
-14:30:37.994 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
-14:30:37.996 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
-14:30:38.005 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'boardConfig'
-14:30:38.011 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'toDoList'
-14:30:38.029 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'inProgressList'
-[Enter first to do list, Enter second to do list]
+  <testcase name="testBoardInProgressList()" classname="com.kodilla.spring.portfolio.BoardTestSuite" time="0.009"/>
+  <testcase name="testBoardTodList()" classname="com.kodilla.spring.portfolio.BoardTestSuite" time="0.005"/>
+  <testcase name="testBoardScope()" classname="com.kodilla.spring.portfolio.BoardTestSuite" time="0.006"/>
+  <testcase name="testBoardDoneList()" classname="com.kodilla.spring.portfolio.BoardTestSuite" time="0.006"/>
+  <system-out><![CDATA[[Enter first to do list, Enter second to do list]
 [Enter second done list]
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>

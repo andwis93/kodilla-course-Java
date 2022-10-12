@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Finding flights" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-10-08T13:07:52" hostname="LAPTOP-6257JG67" time="0.049">
+<testsuite name="Finding flights" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-10-12T13:45:37" hostname="LAPTOP-6257JG67" time="0.09">
   <properties/>
-  <testcase name="findingFlightsThruTest()" classname="com.kodilla.good.patterns.flights.FlightsTestSuite$findingFlights" time="0.03"/>
-  <testcase name="findingFlightsFromTest()" classname="com.kodilla.good.patterns.flights.FlightsTestSuite$findingFlights" time="0.002"/>
-  <testcase name="findingFlightsToTest()" classname="com.kodilla.good.patterns.flights.FlightsTestSuite$findingFlights" time="0.001"/>
-  <testcase name="findingFlightsFromToTest()" classname="com.kodilla.good.patterns.flights.FlightsTestSuite$findingFlights" time="0.001"/>
-  <testcase name="findingFlightsThruNoFlightTest()" classname="com.kodilla.good.patterns.flights.FlightsTestSuite$findingFlights" time="0.008"/>
+  <testcase name="findingFlightsThruTest()" classname="com.kodilla.good.patterns.flights.FlightsTestSuite$findingFlights" time="0.049"/>
+  <testcase name="findingFlightsFromTest()" classname="com.kodilla.good.patterns.flights.FlightsTestSuite$findingFlights" time="0.003"/>
+  <testcase name="findingFlightsToTest()" classname="com.kodilla.good.patterns.flights.FlightsTestSuite$findingFlights" time="0.002"/>
+  <testcase name="findingFlightsFromToTest()" classname="com.kodilla.good.patterns.flights.FlightsTestSuite$findingFlights" time="0.002"/>
+  <testcase name="findingFlightsThruNoFlightTest()" classname="com.kodilla.good.patterns.flights.FlightsTestSuite$findingFlights" time="0.024"/>
   <system-out><![CDATA[Preparing to execute test #: 1
 Test#: 1 was executed.
 Preparing to execute test #: 2
