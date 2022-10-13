@@ -14,13 +14,13 @@ public class BoardConfig {
     }
 
     @Bean(name = "toDoList")
-    @Scope("singleton")
+    @Scope("prototype")
     public TaskList getToDoList() {
         return new TaskList();
     }
 
     @Bean(name = "inProgressList")
-    @Scope("singleton")
+    @Scope("prototype")
     public TaskList getInProgressList() {
         return new TaskList();
     }

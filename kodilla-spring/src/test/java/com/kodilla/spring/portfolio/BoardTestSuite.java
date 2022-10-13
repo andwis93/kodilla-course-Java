@@ -53,17 +53,27 @@ public class BoardTestSuite {
     void testBoardScope() {
         //Given
         ApplicationContext context = new AnnotationConfigApplicationContext(BoardConfig.class);
-        Board board = context.getBean(Board.class);
+        Board board1 = context.getBean(Board.class);
         Board board2 = context.getBean(Board.class);
+        Board board3 = context.getBean(Board.class);
 
         //When & Then
-        board.getToDoList().getTasks().add("Enter first to do list");
-        board.getDoneList().getTasks().add("Enter first done list");
-        board2.getToDoList().getTasks().add("Enter second to do list");
-        board2.getDoneList().getTasks().add("Enter second done list");
+        board1.getToDoList().getTasks().add("Enter first to do list");
+        board2.getInProgressList().getTasks().add("Enter second in progress list");
+        board3.getDoneList().getTasks().add("Enter third done list");
+
+        System.out.println(board1.getToDoList().getTasks());
+        System.out.println(board1.getInProgressList().getTasks());
+        System.out.println(board1.getDoneList().getTasks());
 
         System.out.println(board2.getToDoList().getTasks());
+        System.out.println(board2.getInProgressList().getTasks());
         System.out.println(board2.getDoneList().getTasks());
+
+        System.out.println(board3.getToDoList().getTasks());
+        System.out.println(board3.getInProgressList().getTasks());
+        System.out.println(board3.getDoneList().getTasks());
+     //   System.out.println(board2.getDoneList().getTasks());
         }
 
 }
