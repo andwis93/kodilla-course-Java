@@ -8,16 +8,16 @@ import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
 public class LibraryTestSuite {
 
-    @Test
-    void testGetBooks() {
-        //Given
+    public Library prepareBook() {
         Library library = new Library(" Library main");
         IntStream.iterate(1, n -> n + 1)
                 .limit(5)
                 .forEach(n -> library.getBooks().add(new Book("Title for novel book: " + n,
                         "Author for novel book: " + n
                         , LocalDate.now().minusDays(n))));
-
+        return library;
+    }
+    public Library shallowCopyLibrary(Library library) {
         Library cloneLibrary = null;
         try {
             cloneLibrary = library.shallowCopy();
@@ -25,7 +25,10 @@ public class LibraryTestSuite {
         } catch (CloneNotSupportedException e) {
             System.out.println(e);
         }
+        return cloneLibrary;
+    }
 
+    public Library deepCopyLibrary(Library library) {
         Library deepCloneLibrary = null;
         try {
             deepCloneLibrary = library.deepCopy();
@@ -33,6 +36,15 @@ public class LibraryTestSuite {
         } catch (CloneNotSupportedException e) {
             System.out.println(e);
         }
+        return deepCloneLibrary;
+    }
+
+    @Test
+    void testGetBooks() {
+        //Given
+        Library library = prepareBook();
+        Library cloneLibrary = shallowCopyLibrary(library);
+        Library deepCloneLibrary = deepCopyLibrary(library);
 
         //When
         Book bookToRemove = new Book("Title for novel book: 4",
