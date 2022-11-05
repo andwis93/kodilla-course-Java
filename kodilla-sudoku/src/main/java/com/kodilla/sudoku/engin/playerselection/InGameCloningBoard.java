@@ -16,7 +16,6 @@ public final class InGameCloningBoard implements TaskSelected {
         } catch (CloneNotSupportedException e) {
           System.out.println(e);
         }
-
         setSudoku.getTrackingOptions().addMoveToList(new MoveTracking(clonedBoard, move));
     }
 
