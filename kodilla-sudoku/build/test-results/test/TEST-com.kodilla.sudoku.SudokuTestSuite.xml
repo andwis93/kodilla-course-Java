@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.kodilla.sudoku.SudokuTestSuite" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-11-04T11:24:53" hostname="LAPTOP-6257JG67" time="0.067">
+<testsuite name="com.kodilla.sudoku.SudokuTestSuite" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-11-07T11:05:15" hostname="LAPTOP-6257JG67" time="0.065">
   <properties/>
-  <testcase name="checkIfSudokuSolvedTest()" classname="com.kodilla.sudoku.SudokuTestSuite" time="0.028"/>
+  <testcase name="checkIfSudokuSolvedTest()" classname="com.kodilla.sudoku.SudokuTestSuite" time="0.025"/>
   <testcase name="removePossibleValuesTest()" classname="com.kodilla.sudoku.SudokuTestSuite" time="0.003"/>
-  <testcase name="reversLastMoveTest()" classname="com.kodilla.sudoku.SudokuTestSuite" time="0.025"/>
-  <testcase name="addToTrackingOptionsAfterMoveTest()" classname="com.kodilla.sudoku.SudokuTestSuite" time="0.002"/>
-  <testcase name="makeMoveTest()" classname="com.kodilla.sudoku.SudokuTestSuite" time="0.003"/>
-  <testcase name="createBoardTest()" classname="com.kodilla.sudoku.SudokuTestSuite" time="0.003"/>
+  <testcase name="reversLastMoveTest()" classname="com.kodilla.sudoku.SudokuTestSuite" time="0.023"/>
+  <testcase name="addToTrackingOptionsAfterMoveTest()" classname="com.kodilla.sudoku.SudokuTestSuite" time="0.003"/>
+  <testcase name="makeMoveTest()" classname="com.kodilla.sudoku.SudokuTestSuite" time="0.004"/>
+  <testcase name="createBoardTest()" classname="com.kodilla.sudoku.SudokuTestSuite" time="0.004"/>
   <system-out><![CDATA[Move retracted: Column: [4] Row: [2] Value: [8]
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>

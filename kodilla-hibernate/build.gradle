@@ -13,13 +13,23 @@ repositories {
 }
 
 dependencies {
-    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-jdbc', version: '2.7.5'
-    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-validation', version: '2.7.5'
-    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-jdbc', version: '2.7.3'
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-data-jpa', version: '2.7.3'
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-validation', version: '2.7.3'
     runtimeOnly 'com.mysql:mysql-connector-j'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
-}
+
+    }
+
+tasks.register("prepareKotlinBuildScriptModel"){}
 
 tasks.named('test') {
     useJUnitPlatform()
 }
+
+task wrapper(type: Wrapper){
+    gradleVersion = '7.5.1'
+}
+

@@ -1,20 +1,23 @@
 package com.kodilla.hibernate.tasklist;
 
+import com.kodilla.hibernate.task.Task;
 import com.sun.istack.NotNull;
 import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Table(name = "TASKLISTS")
 public final class TaskList {
-    private int id;
+    private long id;
     private String listName;
     private String description;
+    private List<Task> tasks = new ArrayList<>();
 
     public TaskList() {
     }
 
     public TaskList(String listName, String description) {
-
         this.listName = listName;
         this.description = description;
     }
@@ -23,7 +26,7 @@ public final class TaskList {
     @GeneratedValue
     @NotNull
     @Column(name = "ID", unique = true)
-    public int getId() {
+    public long getId() {
         return id;
     }
 
@@ -38,7 +41,7 @@ public final class TaskList {
         return description;
     }
 
-    private void setId(int id) {
+    private void setId(long id) {
         this.id = id;
     }
 
@@ -50,4 +53,17 @@ public final class TaskList {
         this.description = description;
     }
 
+    @OneToMany (
+            targetEntity = Task.class,
+            mappedBy = "taskList",
+            cascade = CascadeType.ALL,
+            fetch = FetchType.LAZY
+    )
+    public List<Task> getTasks() {
+        return tasks;
+    }
+
+    private void setTasks(List<Task> tasks) {
+        this.tasks = tasks;
+    }
 }
