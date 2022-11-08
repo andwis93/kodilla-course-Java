@@ -5,7 +5,8 @@ import com.kodilla.hibernate.manytomany.Employee;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-
+import java.util.List;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
 @SpringBootTest
@@ -13,6 +14,8 @@ public class CompanyDaoTestSuite {
 
     @Autowired
     private CompanyDao companyDao;
+    @Autowired
+    private EmployeeDao employeeDao;
 
     @Test
     void testSaveManyToMany() {
@@ -39,11 +42,11 @@ public class CompanyDaoTestSuite {
 
         //When
         companyDao.save(softwareMachine);
-        int softwareMachineId = softwareMachine.getId();
+        long softwareMachineId = softwareMachine.getId();
         companyDao.save(dataMasters);
-        int dataMastersId = dataMasters.getId();
+        long dataMastersId = dataMasters.getId();
         companyDao.save(greyMatter);
-        int greyMatterId = greyMatter.getId();
+        long greyMatterId = greyMatter.getId();
 
         //Then
         assertNotEquals(0, softwareMachineId);
@@ -59,4 +62,55 @@ public class CompanyDaoTestSuite {
        //   do nothing
          }
     }
+
+   @Test
+   void testNamedQueries() {
+        //Given
+        Employee johnSmith = new Employee("John", "Smith");
+        Employee stephanieClarckson = new Employee("Stephanie", "Clarckson");
+        Employee lindaKovalsky = new Employee("Linda", "Kovalsky");
+
+        Company softwareMachine = new Company("Software Machine");
+        Company dataMasters = new Company("Data Masters");
+        Company greyMatter = new Company("Gray Matter");
+
+        softwareMachine.getEmployees().add(johnSmith);
+        dataMasters.getEmployees().add(stephanieClarckson);
+        dataMasters.getEmployees().add(lindaKovalsky);
+        greyMatter.getEmployees().add(johnSmith);
+        greyMatter.getEmployees().add(lindaKovalsky);
+
+        johnSmith.getCompanies().add(softwareMachine);
+        johnSmith.getCompanies().add(greyMatter);
+        stephanieClarckson.getCompanies().add(dataMasters);
+        lindaKovalsky.getCompanies().add(dataMasters);
+        lindaKovalsky.getCompanies().add(greyMatter);
+
+        employeeDao.save(johnSmith);
+        String johnSmithName = johnSmith.getLastName();
+        employeeDao.save(stephanieClarckson);
+        String stephanieClarcksonName = stephanieClarckson.getLastName();
+        employeeDao.save(lindaKovalsky);
+        String lindaKovalskyName = lindaKovalsky.getLastName();
+        companyDao.save(softwareMachine);
+        companyDao.save(dataMasters);
+        companyDao.save(greyMatter);
+
+        //When
+        List<Employee> finByName = employeeDao.findEmployeeByName("Clarckson");
+        List<Company> findByFirstThreeLetters = companyDao.findCompanyByFirstTreeLetters("Gra");
+
+        //Then
+        try {
+            assertEquals(1, finByName.size());
+            assertEquals(1, findByFirstThreeLetters.size());
+
+        //CleanUp
+        } finally {
+            employeeDao.deleteByLastName(johnSmithName);
+            employeeDao.deleteByLastName(stephanieClarcksonName);
+            employeeDao.deleteByLastName(lindaKovalskyName);
+        }
+    }
+
 }

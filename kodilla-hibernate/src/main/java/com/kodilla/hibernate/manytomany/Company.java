@@ -5,10 +5,15 @@ import javax.validation.constraints.NotNull;
 import java.util.ArrayList;
 import java.util.List;
 
+@NamedNativeQuery(
+        name = "Company.findCompanyByFirstTreeLetters",
+        query = "SELECT * FROM COMPANY WHERE LEFT(COMPANY_NAME, 3) = :FIRSTTREELETTERS",
+        resultClass = Company.class
+)
 @Entity
 @Table(name = "COMPANY")
 public class Company {
-    private int id;
+    private long id;
     private String name;
     private List<Employee> employees = new ArrayList<>();
 
@@ -23,7 +28,7 @@ public class Company {
     @GeneratedValue
     @NotNull
     @Column(name = "COMPANY_ID", unique = true)
-    public int getId() {
+    public long getId() {
         return id;
     }
 
@@ -33,7 +38,7 @@ public class Company {
         return name;
     }
 
-    private void setId(int id) {
+    private void setId(long id) {
         this.id = id;
     }
 
@@ -49,4 +54,5 @@ public class Company {
     private void setEmployees(List<Employee> employees) {
         this.employees = employees;
     }
+
 }
