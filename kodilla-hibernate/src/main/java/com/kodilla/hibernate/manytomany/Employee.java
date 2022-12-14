@@ -9,6 +9,12 @@ import java.util.List;
         name = "Employee.findEmployeeByName",
         query = "FROM Employee WHERE lastName = :LASTNAME"
 )
+
+@NamedQuery(
+        name = "Employee.findEmployeeByScrap",
+        query = "FROM Employee WHERE lastName LIKE :ARG or firstName LIKE :ARG"
+)
+
 @Entity
 @Table(name = "EMPLOYEES")
 public class Employee {
@@ -19,6 +25,7 @@ public class Employee {
 
     public Employee() {
     }
+
 
     public Employee(String firstName, String lastName) {
         this.firstName = firstName;

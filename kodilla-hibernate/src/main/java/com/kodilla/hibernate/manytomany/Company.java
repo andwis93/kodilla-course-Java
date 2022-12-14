@@ -5,18 +5,22 @@ import javax.validation.constraints.NotNull;
 import java.util.ArrayList;
 import java.util.List;
 
+@NamedQuery(
+        name = "Company.findCompanyByScrap",
+        query = "FROM Company WHERE name LIKE :ARG"
+)
 @NamedNativeQuery(
         name = "Company.findCompanyByFirstTreeLetters",
         query = "SELECT * FROM COMPANY WHERE LEFT(COMPANY_NAME, 3) = :FIRSTTREELETTERS",
         resultClass = Company.class
 )
+
 @Entity
 @Table(name = "COMPANY")
 public class Company {
     private long id;
     private String name;
     private List<Employee> employees = new ArrayList<>();
-
     public Company() {
     }
 

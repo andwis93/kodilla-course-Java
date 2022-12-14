@@ -15,5 +15,8 @@ public interface CompanyDao extends CrudRepository<Company, Long> {
     List<Company> deleteByName(String name);
     @Query
     List<Company> findCompanyByFirstTreeLetters(@Param("FIRSTTREELETTERS") String firstTreeLetters);
+    @Query
+    List<Company> findCompanyByScrap(@Param("ARG") String arg);
+
 
 }

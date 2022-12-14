@@ -1,12 +1,16 @@
 package com.kodilla.sudoku.options;
 
 public final class BoardOptions {
-    public final static int BOARD_SIZE_9 = 9;
+
     public final static int SQUARE_SIZE_9 = 3;
-    public final static int BOARD_SIZE_16 = 16;
+    public final static int BOARD_SIZE_9 = SQUARE_SIZE_9 * SQUARE_SIZE_9 ;
+
     public final static int SQUARE_SIZE_16 = 4;
-    public final static int BOARD_SIZE_25 = 25;
+    public final static int BOARD_SIZE_16 = SQUARE_SIZE_16 * SQUARE_SIZE_16;
+
     public final static int SQUARE_SIZE_25 = 5;
+    public final static int BOARD_SIZE_25 = SQUARE_SIZE_25 * SQUARE_SIZE_25;
+
 
     public Option setOptions(int optionsSelected) {
         switch (optionsSelected) {

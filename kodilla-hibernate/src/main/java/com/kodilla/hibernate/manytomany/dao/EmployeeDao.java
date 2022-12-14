@@ -14,5 +14,7 @@ public interface EmployeeDao extends CrudRepository<Employee, Long> {
     List<Employee> deleteByLastName(String lastName);
     @Query
     List<Employee> findEmployeeByName(@Param("LASTNAME") String lastName);
+    @Query
+    List<Employee> findEmployeeByScrap(@Param("ARG") String arg);
 
 }
