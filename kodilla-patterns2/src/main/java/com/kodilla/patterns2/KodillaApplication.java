@@ -8,5 +8,6 @@ public class KodillaApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(KodillaApplication.class, args);
+
     }
 }
