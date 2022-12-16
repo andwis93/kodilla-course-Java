@@ -1,4 +1,4 @@
-package com.kodilla.patterns2;
+package com.kodilla.patterns2.decorator;
 
 import com.kodilla.patterns2.facade.ShopService;
 import com.kodilla.patterns2.facade.api.ItemDto;
@@ -8,7 +8,6 @@ import com.kodilla.patterns2.facade.api.OrderProcessingException;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-
 import java.math.BigDecimal;
 
 @SpringBootTest

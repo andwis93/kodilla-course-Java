@@ -20,6 +20,5 @@ public class PlayGame {
             gameFinished = playAgain.playAgain();
         }
     }
-
 }
 
