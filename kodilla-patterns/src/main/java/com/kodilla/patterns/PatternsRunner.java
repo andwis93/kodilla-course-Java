@@ -6,11 +6,14 @@ public class PatternsRunner {
 
     public static void main(String[] args) {
 
-        Figure[][] board = new Figure[10][];
+        long timer = System.currentTimeMillis();
+        long end = timer + (1*100*600);
+        while (System.currentTimeMillis()< end){
 
-        for (int n = 0; n < 10; n++) {
-            board[n] = new Figure[10];
-            System.out.println(board[n]);
         }
-    }
+
+        System.out.println(timer);
+        System.out.println(end);
+        }
+
 }

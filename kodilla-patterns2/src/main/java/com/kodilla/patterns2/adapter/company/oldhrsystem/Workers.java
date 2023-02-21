@@ -23,11 +23,11 @@ public class Workers {
         }
 
             public String[][] getWorkers() {
-            return workers;
+                return workers;
         }
 
             public double[] getSalaries() {
-            return salaries;
+                return salaries;
         }
 
 }
