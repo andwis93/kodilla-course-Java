@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.matrix.sudoku.SudokuTestSuite" tests="6" skipped="0" failures="0" errors="0" timestamp="2023-02-27T10:56:42" hostname="LAPTOP-6257JG67" time="0.055">
+  <properties/>
+  <testcase name="checkIfSudokuSolvedTest()" classname="com.kodilla.matrix.sudoku.SudokuTestSuite" time="0.026"/>
+  <testcase name="removePossibleValuesTest()" classname="com.kodilla.matrix.sudoku.SudokuTestSuite" time="0.002"/>
+  <testcase name="reversLastMoveTest()" classname="com.kodilla.matrix.sudoku.SudokuTestSuite" time="0.019"/>
+  <testcase name="addToTrackingOptionsAfterMoveTest()" classname="com.kodilla.matrix.sudoku.SudokuTestSuite" time="0.002"/>
+  <testcase name="makeMoveTest()" classname="com.kodilla.matrix.sudoku.SudokuTestSuite" time="0.002"/>
+  <testcase name="createBoardTest()" classname="com.kodilla.matrix.sudoku.SudokuTestSuite" time="0.001"/>
+  <system-out><![CDATA[Move retracted: Column: [4] Row: [2] Value: [8]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

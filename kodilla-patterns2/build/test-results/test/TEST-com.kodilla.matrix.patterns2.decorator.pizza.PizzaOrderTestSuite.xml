@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.matrix.patterns2.decorator.pizza.PizzaOrderTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-24T15:13:14" hostname="LAPTOP-6257JG67" time="0.008">
+  <properties/>
+  <testcase name="testOrderPizzaWithIngredientsDeliverySauceThickBase()" classname="com.kodilla.matrix.patterns2.decorator.pizza.PizzaOrderTestSuite" time="0.008"/>
+  <system-out><![CDATA[Pizza with: 
+ - Mushrooms
+ - Pepperoni
+ - Bacon
+ * Delivery
+ * Sauce
+ * Thick Base
+Total: 42PLN
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

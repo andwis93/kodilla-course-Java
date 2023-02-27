@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.matrix.patterns2.decorator.taxiportal.TaxiOrderTestSuite" tests="10" skipped="0" failures="0" errors="0" timestamp="2023-02-24T15:13:14" hostname="LAPTOP-6257JG67" time="0.019">
+  <properties/>
+  <testcase name="testUberWithTwoChildSeatsGetCost()" classname="com.kodilla.matrix.patterns2.decorator.taxiportal.TaxiOrderTestSuite" time="0.003"/>
+  <testcase name="testVipTaxiWithChildSeatExpressGetCost()" classname="com.kodilla.matrix.patterns2.decorator.taxiportal.TaxiOrderTestSuite" time="0.004"/>
+  <testcase name="theBasicTaxiOrderGetCost()" classname="com.kodilla.matrix.patterns2.decorator.taxiportal.TaxiOrderTestSuite" time="0.001"/>
+  <testcase name="testMyTaxiWithChildSeatGetCost()" classname="com.kodilla.matrix.patterns2.decorator.taxiportal.TaxiOrderTestSuite" time="0.002"/>
+  <testcase name="testMyTaxiWithChildSeatGetDescription()" classname="com.kodilla.matrix.patterns2.decorator.taxiportal.TaxiOrderTestSuite" time="0.0"/>
+  <testcase name="testVipTaxiWithChildSeatExpressGetDescription()" classname="com.kodilla.matrix.patterns2.decorator.taxiportal.TaxiOrderTestSuite" time="0.001"/>
+  <testcase name="testTaxiNetworkGetDescription()" classname="com.kodilla.matrix.patterns2.decorator.taxiportal.TaxiOrderTestSuite" time="0.001"/>
+  <testcase name="testTaxiNetworkGetCost()" classname="com.kodilla.matrix.patterns2.decorator.taxiportal.TaxiOrderTestSuite" time="0.0"/>
+  <testcase name="testBasicTaxiOrderGetDescription()" classname="com.kodilla.matrix.patterns2.decorator.taxiportal.TaxiOrderTestSuite" time="0.0"/>
+  <testcase name="testUberWithTwoChildSeatsGetDescription()" classname="com.kodilla.matrix.patterns2.decorator.taxiportal.TaxiOrderTestSuite" time="0.001"/>
+  <system-out><![CDATA[57
+Drive a course by Taxi Network express service variant VIP + child seat
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

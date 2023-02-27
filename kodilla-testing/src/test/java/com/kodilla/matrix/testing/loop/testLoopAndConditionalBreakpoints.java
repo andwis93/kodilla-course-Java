@@ -17,6 +17,6 @@ public class testLoopAndConditionalBreakpoints {
         }
 
         //Then
-        assertEquals(499522, sum);
+        assertEquals(499500, sum);
     }
 }

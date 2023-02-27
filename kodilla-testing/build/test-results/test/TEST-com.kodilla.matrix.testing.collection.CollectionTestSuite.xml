@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Collection Test Suite" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-02-27T10:55:01" hostname="LAPTOP-6257JG67" time="0.019">
+  <properties/>
+  <testcase name="When list is empty exterminate method should return empty list" classname="com.kodilla.matrix.testing.collection.CollectionTestSuite" time="0.017"/>
+  <testcase name="When receives list with numbers  exterminate method should return only even numbers" classname="com.kodilla.matrix.testing.collection.CollectionTestSuite" time="0.001"/>
+  <system-out><![CDATA[Test suite: BEGIN
+
+Test case list: BEGIN
+[]
+Test case list: END
+
+Test case list: BEGIN
+[2, 4, 6, 8]
+Test case list: END
+
+Test suite: END
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,7 +1,7 @@
 package com.kodilla.matrix.sudoku.engin.setgame;
 
 import com.kodilla.matrix.sudoku.options.*;
-import com.kodilla.sudoku.options.*;
+
 
 public final class SetUpProcess {
 

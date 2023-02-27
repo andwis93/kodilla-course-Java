@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Forum Test Suite" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-02-27T10:55:01" hostname="LAPTOP-6257JG67" time="0.002">
+  <properties/>
+  <testcase name="When created SimpleUser with name,then getUsername should return correct name" classname="com.kodilla.matrix.testing.forum.ForumTestSuite" time="0.001"/>
+  <testcase name="testCaseUsername()" classname="com.kodilla.matrix.testing.forum.ForumTestSuite" time="0.0"/>
+  <system-out><![CDATA[Test Suite: begin
+
+Test case: begin
+Testing John Smith
+Test case: end
+
+Test case: begin
+Test case: end
+
+Test Suite: end
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

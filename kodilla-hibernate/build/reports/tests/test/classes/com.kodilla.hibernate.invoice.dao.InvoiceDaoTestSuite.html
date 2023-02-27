@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - InvoiceDaoTestSuite</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>InvoiceDaoTestSuite</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.kodilla.hibernate.invoice.dao.html">com.kodilla.hibernate.invoice.dao</a> &gt; InvoiceDaoTestSuite</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.223s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testInvoiceDaoAndProductDaoSaveWithItems()</td>
+<td class="success">0.223s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>2023-02-27 12:45:53.043  INFO 5660 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.kodilla.hibernate.invoice.dao.InvoiceDaoTestSuite], using SpringBootContextLoader
+2023-02-27 12:45:53.043  INFO 5660 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.kodilla.hibernate.invoice.dao.InvoiceDaoTestSuite]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-02-27 12:45:53.044  INFO 5660 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.kodilla.hibernate.invoice.dao.InvoiceDaoTestSuite]: InvoiceDaoTestSuite does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-02-27 12:45:53.056  INFO 5660 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.kodilla.hibernate.KodillaHibernateApplication for test class com.kodilla.hibernate.invoice.dao.InvoiceDaoTestSuite
+2023-02-27 12:45:53.058  INFO 5660 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2023-02-27 12:45:53.058  INFO 5660 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4def900a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5e1bfe66, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@6c399d4, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@726dd367, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@433362e0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@425a5c2e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@58cd6088, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@44a7661d, org.springframework.test.context.event.EventPublishingTestExecutionListener@1cdb280b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@cf0bc92, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3f8a44a4, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@40625ac6, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@53cb9b1, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@c2191a8, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@61e34bec]
+Hibernate: select next_val as id_val from hibernate_sequence for update
+Hibernate: update hibernate_sequence set next_val= ? where next_val=?
+Hibernate: select next_val as id_val from hibernate_sequence for update
+Hibernate: update hibernate_sequence set next_val= ? where next_val=?
+Hibernate: select next_val as id_val from hibernate_sequence for update
+Hibernate: update hibernate_sequence set next_val= ? where next_val=?
+Hibernate: select next_val as id_val from hibernate_sequence for update
+Hibernate: update hibernate_sequence set next_val= ? where next_val=?
+Hibernate: select next_val as id_val from hibernate_sequence for update
+Hibernate: update hibernate_sequence set next_val= ? where next_val=?
+Hibernate: select next_val as id_val from hibernate_sequence for update
+Hibernate: update hibernate_sequence set next_val= ? where next_val=?
+Hibernate: insert into product (name, id) values (?, ?)
+Hibernate: insert into invoice (number, id) values (?, ?)
+Hibernate: insert into item (invoice_id, price, product_id, quantity, value, id) values (?, ?, ?, ?, ?, ?)
+Hibernate: insert into item (invoice_id, price, product_id, quantity, value, id) values (?, ?, ?, ?, ?, ?)
+Hibernate: insert into item (invoice_id, price, product_id, quantity, value, id) values (?, ?, ?, ?, ?, ?)
+Hibernate: insert into item (invoice_id, price, product_id, quantity, value, id) values (?, ?, ?, ?, ?, ?)
+Hibernate: select invoice0_.id as id1_2_2_, invoice0_.number as number2_2_2_, items1_.invoice_id as invoice_5_3_4_, items1_.id as id1_3_4_, items1_.id as id1_3_0_, items1_.invoice_id as invoice_5_3_0_, items1_.price as price2_3_0_, items1_.product_id as product_6_3_0_, items1_.quantity as quantity3_3_0_, items1_.value as value4_3_0_, product2_.id as id1_5_1_, product2_.name as name2_5_1_ from invoice invoice0_ left outer join item items1_ on invoice0_.id=items1_.invoice_id left outer join product product2_ on items1_.product_id=product2_.id where invoice0_.id=?
+Hibernate: update item set invoice_id=?, price=?, product_id=?, quantity=?, value=? where id=?
+Hibernate: update item set invoice_id=?, price=?, product_id=?, quantity=?, value=? where id=?
+Hibernate: update item set invoice_id=?, price=?, product_id=?, quantity=?, value=? where id=?
+Hibernate: update item set invoice_id=?, price=?, product_id=?, quantity=?, value=? where id=?
+Hibernate: select product0_.id as id1_5_0_, product0_.name as name2_5_0_ from product product0_ where product0_.id=?
+Hibernate: select items0_.product_id as product_6_3_0_, items0_.id as id1_3_0_, items0_.id as id1_3_1_, items0_.invoice_id as invoice_5_3_1_, items0_.price as price2_3_1_, items0_.product_id as product_6_3_1_, items0_.quantity as quantity3_3_1_, items0_.value as value4_3_1_, invoice1_.id as id1_2_2_, invoice1_.number as number2_2_2_ from item items0_ left outer join invoice invoice1_ on items0_.invoice_id=invoice1_.id where items0_.product_id=?
+Hibernate: select items0_.invoice_id as invoice_5_3_0_, items0_.id as id1_3_0_, items0_.id as id1_3_1_, items0_.invoice_id as invoice_5_3_1_, items0_.price as price2_3_1_, items0_.product_id as product_6_3_1_, items0_.quantity as quantity3_3_1_, items0_.value as value4_3_1_, product1_.id as id1_5_2_, product1_.name as name2_5_2_ from item items0_ left outer join product product1_ on items0_.product_id=product1_.id where items0_.invoice_id=?
+Hibernate: delete from item where id=?
+Hibernate: delete from item where id=?
+Hibernate: delete from item where id=?
+Hibernate: delete from item where id=?
+Hibernate: delete from invoice where id=?
+Hibernate: delete from product where id=?
+Hibernate: select invoice0_.id as id1_2_0_, invoice0_.number as number2_2_0_ from invoice invoice0_ where invoice0_.id=?
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.4</a> at 27 lut 2023, 12:45:54</p>
+</div>
+</div>
+</body>
+</html>

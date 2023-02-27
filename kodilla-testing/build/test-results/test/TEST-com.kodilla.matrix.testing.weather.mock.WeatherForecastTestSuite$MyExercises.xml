@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="My Exercises" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-02-27T10:55:02" hostname="LAPTOP-6257JG67" time="0.041">
+  <properties/>
+  <testcase name="testCalculateMedianTemperature()" classname="com.kodilla.matrix.testing.weather.mock.WeatherForecastTestSuite$MyExercises" time="0.037"/>
+  <testcase name="testCalculateAverageTemperature()" classname="com.kodilla.matrix.testing.weather.mock.WeatherForecastTestSuite$MyExercises" time="0.003"/>
+  <system-out><![CDATA[Preparing to execute test #: 1
+Test#: 1 was executed.
+Preparing to execute test #: 2
+Test#: 2 was executed.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

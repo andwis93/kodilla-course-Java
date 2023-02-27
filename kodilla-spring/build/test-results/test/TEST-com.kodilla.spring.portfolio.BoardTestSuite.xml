@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.spring.portfolio.BoardTestSuite" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-02-27T11:31:41" hostname="LAPTOP-6257JG67" time="0.031">
+  <properties/>
+  <testcase name="testBoardInProgressList()" classname="com.kodilla.spring.portfolio.BoardTestSuite" time="0.011"/>
+  <testcase name="testBoardTodList()" classname="com.kodilla.spring.portfolio.BoardTestSuite" time="0.006"/>
+  <testcase name="testBoardScope()" classname="com.kodilla.spring.portfolio.BoardTestSuite" time="0.008"/>
+  <testcase name="testBoardDoneList()" classname="com.kodilla.spring.portfolio.BoardTestSuite" time="0.004"/>
+  <system-out><![CDATA[[Enter first to do list]
+[]
+[]
+[]
+[Enter second in progress list]
+[]
+[]
+[]
+[Enter third done list]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.matrix.patterns2.observer.homework.ExerciseSubmitTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-24T15:13:14" hostname="LAPTOP-6257JG67" time="0.012">
+  <properties/>
+  <testcase name="testUpdate()" classname="com.kodilla.matrix.patterns2.observer.homework.ExerciseSubmitTestSuite" time="0.012"/>
+  <system-out><![CDATA[Szymon Kociuba - New exercise was submitted by Mr.  Bean
+(total: 1 exercises)
+- "Mr Bean Goes to Town" - Posting date: (2023-02-24) - Status: false
+
+Szymon Kociuba - New exercise was submitted by Mr.  Bean
+(total: 2 exercises)
+- "Mr Bean Goes to Town" - Posting date: (2023-02-24) - Status: false
+- "Merry Christmas, Mr. Bean" - Posting date: (2023-02-24) - Status: false
+
+Szymon Kociuba - New exercise was submitted by Dr. House
+(total: 1 exercises)
+- "97 Seconds" - Posting date: (2023-02-24) - Status: false
+
+Mateusz Lach - New exercise was submitted by Benny Hill
+(total: 1 exercises)
+- "Bennies from Heaven" - Posting date: (2023-02-24) - Status: false
+
+Mateusz Lach - New exercise was submitted by Benny Hill
+(total: 2 exercises)
+- "Bennies from Heaven" - Posting date: (2023-02-24) - Status: false
+- "Bonus Benny!" - Posting date: (2023-02-24) - Status: false
+
+Mateusz Lach - New exercise was submitted by Benny Hill
+(total: 3 exercises)
+- "Bennies from Heaven" - Posting date: (2023-02-24) - Status: false
+- "Bonus Benny!" - Posting date: (2023-02-24) - Status: false
+- "The Good, the Bawd and the Benny" - Posting date: (2023-02-24) - Status: false
+
+Szymon Kociuba - New exercise was submitted by Monty Python
+(total: 1 exercises)
+- "The Killer Joke" - Posting date: (2023-02-24) - Status: false
+
+Szymon Kociuba - New exercise was submitted by Monty Python
+(total: 2 exercises)
+- "The Killer Joke" - Posting date: (2023-02-24) - Status: false
+- "The Dead Parrot Sketch" - Posting date: (2023-02-24) - Status: false
+
+Mateusz Lach - New exercise was submitted by Michael Scott
+(total: 1 exercises)
+- "Dinner Party" - Posting date: (2023-02-24) - Status: false
+
+Mateusz Lach - New exercise was submitted by Michael Scott
+(total: 2 exercises)
+- "Dinner Party" - Posting date: (2023-02-24) - Status: false
+- "Safety Training" - Posting date: (2023-02-24) - Status: false
+
+Mateusz Lach - New exercise was submitted by Michael Scott
+(total: 3 exercises)
+- "Dinner Party" - Posting date: (2023-02-24) - Status: false
+- "Safety Training" - Posting date: (2023-02-24) - Status: false
+- "The Injury" - Posting date: (2023-02-24) - Status: false
+
+
+ After accepting:
+- "Merry Christmas, Mr. Bean" - Post Date: (2023-02-24) - Status: true
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

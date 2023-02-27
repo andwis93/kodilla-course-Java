@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.matrix.patterns.prototype.library.LibraryTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-24T15:13:07" hostname="LAPTOP-6257JG67" time="0.017">
+  <properties/>
+  <testcase name="testGetBooks()" classname="com.kodilla.matrix.patterns.prototype.library.LibraryTestSuite" time="0.017"/>
+  <system-out><![CDATA[ Library main
+Books: 
+* Title: Title for novel book: 1, Author: Author for novel book: 1, Publicated: 2023-02-23
+* Title: Title for novel book: 2, Author: Author for novel book: 2, Publicated: 2023-02-22
+* Title: Title for novel book: 3, Author: Author for novel book: 3, Publicated: 2023-02-21
+* Title: Title for novel book: 5, Author: Author for novel book: 5, Publicated: 2023-02-19
+
+Library shallow copy
+Books: 
+* Title: Title for novel book: 1, Author: Author for novel book: 1, Publicated: 2023-02-23
+* Title: Title for novel book: 2, Author: Author for novel book: 2, Publicated: 2023-02-22
+* Title: Title for novel book: 3, Author: Author for novel book: 3, Publicated: 2023-02-21
+* Title: Title for novel book: 5, Author: Author for novel book: 5, Publicated: 2023-02-19
+
+Library deep copy
+Books: 
+* Title: Title for novel book: 1, Author: Author for novel book: 1, Publicated: 2023-02-23
+* Title: Title for novel book: 2, Author: Author for novel book: 2, Publicated: 2023-02-22
+* Title: Title for novel book: 3, Author: Author for novel book: 3, Publicated: 2023-02-21
+* Title: Title for novel book: 4, Author: Author for novel book: 4, Publicated: 2023-02-20
+* Title: Title for novel book: 5, Author: Author for novel book: 5, Publicated: 2023-02-19
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
