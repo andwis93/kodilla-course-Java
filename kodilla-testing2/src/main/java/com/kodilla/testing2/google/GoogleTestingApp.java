@@ -12,10 +12,10 @@ public class GoogleTestingApp {
 
     public static void main(String[] args) throws InterruptedException {
 
-        WebDriver driver = WebDriverConfig.getDriver(WebDriverConfig.CHROME);  // [1]
+        WebDriver driver = WebDriverConfig.getDriver(WebDriverConfig.CHROME);
         driver.get("https://www.google.com");
 
-        driver.findElement(By.xpath("//*[@id=\"L2AGLb\"]/div")).click();
+    //    driver.findElement(By.xpath("//*[@id=\"L2AGLb\"]/div")).click();
 
         WebElement searchField = driver.findElement(By.name(SEARCHFIELD));
         searchField.sendKeys("Kodilla");
