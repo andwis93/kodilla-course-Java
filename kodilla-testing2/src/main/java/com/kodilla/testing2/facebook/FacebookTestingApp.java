@@ -4,38 +4,42 @@ import com.kodilla.testing2.config.WebDriverConfig;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
-import java.util.concurrent.TimeUnit;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import java.time.Duration;
 
 public class FacebookTestingApp {
     public static final String XPATH_COOKIES = "//div[contains(@class,\"9xo5\")]/button[contains(@class,\"9xo6\")]";
     public static final String XPATH_NEW_ACCOUNT = "//div[contains(@class,\"6ltg\")]/a[contains(@class,\"6lti\")]";
-    public static final String XPATH_WAIT_FOR = "//button";
     public static final String XPATH_DAY = "//span[contains(@class,\"5k_4\")]/span/select[1]";
     public static final String XPATH_MONTH = "//span[contains(@class,\"5k_4\")]/span/select[2]";
     public static final String XPATH_YEAR = "//span[contains(@class,\"5k_4\")]/span/select[3]";
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) {
         WebDriver driver = WebDriverConfig.getDriver(WebDriverConfig.CHROME);
         driver.get("https://www.facebook.com/");
 
-        WebElement element = driver.findElement(By.xpath(XPATH_COOKIES));
-        element.click();
+        WebElement cookiesBtn = driver.findElement(By.xpath(XPATH_COOKIES));
+        cookiesBtn.click();
 
-        element = driver.findElement(By.xpath(XPATH_NEW_ACCOUNT));
-        element.click();
+        WebElement accountBtn = driver.findElement(By.xpath(XPATH_NEW_ACCOUNT));
+        accountBtn.click();
 
-      //  while(!driver.findElement(By.xpath(XPATH_WAIT_FOR)).isDisplayed());
-        TimeUnit.SECONDS.sleep(1);
+        WebDriverWait webDriverWait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(XPATH_DAY)));
 
-        element = driver.findElement(By.xpath(XPATH_DAY));
-        Select select = new Select(element);
-        select.selectByIndex(1);
-        element = driver.findElement(By.xpath(XPATH_MONTH));
-        select = new Select(element);
-        select.selectByIndex(9);
-        element = driver.findElement(By.xpath(XPATH_YEAR));
-        select = new Select(element);
-        select.selectByValue("1982");
+        WebElement day = driver.findElement(By.xpath(XPATH_DAY));
+        Select selectDay = new Select(day);
+        selectDay.selectByIndex(1);
+
+        WebElement month = driver.findElement(By.xpath(XPATH_MONTH));
+        Select selectMonth = new Select(month);
+        selectMonth.selectByIndex(9);
+
+        WebElement year = driver.findElement(By.xpath(XPATH_YEAR));
+        Select selectYear = new Select(year);
+        selectYear.selectByValue("1982");
     }
 }
